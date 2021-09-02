@@ -2,8 +2,8 @@
 A shooting game with the style of the classic Space Invaders. Created with QtCreator.
 
 Descrição da aplicação: A aplicação desenvolvida se trata de um jogo no estilo Space Invaders, em que um Player (jogador, que é o quadrado na parte inferior da tela) recebe inimigos (dois tipos: um quadrado maior e outro menor) na tela. Esses inimigos devem ser destruídos por meio de disparos, que são acionados ao pressionar espaço. O jogo aumenta de dificuldade conforme a pontuação aumenta. O jogador perde pontos se encosta no quadrado menor preto e se não elimina um quadrado maior. O jogo acaba quando a quantidade de vidas chega a zero.
+implementações:
 
-Funcionalidades exigidas e suas implementações:
     • Desenhar objetos na janela: A sobreescrita do método paintEvent é utilizada na classe Game para desenhar a janela inicial. Os outros desenhos e textos são criados através da QGraphicsRectItem QGraphicsTextItem, respectivamente.
 
     • Permitir ao usuário inserir e remover objetos: Nesta aplicação, a inserção e remoção de objetos é feita de forma dinâmica. Por essa razão, não existem opções para o usuário inserir ou remover objetos.
