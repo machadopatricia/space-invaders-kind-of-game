@@ -1,8 +1,3 @@
-Integrantes:
-Lucas Nardi Portilho Vieira - RA: 2159651
-Patricia de Souza Machado - RA: 2159694
-
-
 Descrição da aplicação: A aplicação desenvolvida se trata de um jogo no estilo Space Invaders, em que um Player (jogador, que é o quadrado na parte inferior da tela) recebe inimigos (dois tipos: um quadrado maior e outro menor) na tela. Esses inimigos devem ser destruídos por meio de disparos, que são acionados ao pressionar espaço. O jogo aumenta de dificuldade conforme a pontuação aumenta. O jogador perde pontos se encosta no quadrado menor preto e se não elimina um quadrado maior. O jogo acaba quando a quantidade de vidas chega a zero.
 
 
@@ -17,6 +12,4 @@ Funcionalidades exigidas e suas implementações:
 
     • Tratar exceções, alertando o usuário quando alguma ação inválida é realizada: Esta funcionalidade está dentro da classe Player. Ela é acionada quando o usuário digita alguma tecla inválida (tecla que não tem função no jogo), gerando um alerta que aparece temporariamente na tela (durante o jogo).
 
-
-Requisitos:
-	Todos os requisitos foram atendidos. São criadas e utilizadas classes, objetos, construtores, getters e setters. A herança é utilizada na classe Inimigo, que também é uma classe abstrata. São sobreescritos métodos da biblioteca do Qt e também o método virtual puro "move()" da classe Inimigo, usando o polimorfismo dinâmico. A sobrecarga do operador igual é feita durante a criação do singleton Game. A estrutura da STL é um QVector, que é utilizado para armazenar o número de inimigos desviados e eliminados.
+São criadas e utilizadas classes, objetos, construtores, getters e setters. A herança é utilizada na classe Inimigo, que também é uma classe abstrata. São sobreescritos métodos da biblioteca do Qt e também o método virtual puro "move()" da classe Inimigo, usando o polimorfismo dinâmico. A sobrecarga do operador igual é feita durante a criação do singleton Game. A estrutura da STL é um QVector, que é utilizado para armazenar o número de inimigos desviados e eliminados.
